@@ -12,6 +12,8 @@ text-align: center;
 /* Add a fun background color to the main element */
 main {
     background-color: antiquewhite;
+    width: 50cm;
+    height: 15cm;
 }
 /* Align the h1 containing your name in the center of the header*/
 
