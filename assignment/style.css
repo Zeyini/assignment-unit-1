@@ -1,7 +1,12 @@
 /* Add a background color to the header element */
+body {
+    color: black;
+}
+header {
+    background-color: blueviolet;
+    padding: .25cm;
+}
 h1 {
-background-color: blueviolet;
-padding: 10px;
 text-align: center;
 }
 /* Add a fun background color to the main element */
@@ -16,7 +21,15 @@ color: blue;
 font-style: italic;
 }
 /* Put a border around your image */
-
+image {
+    border: 2cm solid black;
+}
 /* Change the font-family of your list */
-
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* Add a background color to the footer element */
+footer {
+    background-color: blueviolet;
+    padding: 0.25cm;
+}
