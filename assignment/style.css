@@ -19,17 +19,25 @@ main {
 p {
 color: blue;
 font-style: italic;
+font-size: medium;
 }
 /* Put a border around your image */
-image {
-    border: 2cm solid black;
+img {
+    border: .086cm solid black;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
 }
 /* Change the font-family of your list */
 ul {
+    list-style-type: circle;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li {
+    margin-bottom: 20px;
 }
 /* Add a background color to the footer element */
 footer {
     background-color: blueviolet;
-    padding: 0.25cm;
+    padding: .25cm;
 }
